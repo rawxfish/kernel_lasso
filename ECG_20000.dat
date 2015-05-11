@@ -1,0 +1,9 @@
+let M := 21;
+let N := 20000;
+let nzeros := 1;
+let sigma := 2;
+read {j in 1..N} Y[j] < ECG_label.txt;
+read {i in 1..M, j in 1..N} X[i,j] < ECG_data.txt;
+#read {i in 1..M+1, j in 1..M+1} W[i,j] < ("output/W_ECG_20000_sigma=" & sigma & ".out");
+#read b < ("output/b_ECG_20000_sigma=" & sigma & ".out");
+
