@@ -1,0 +1,14 @@
+Usage:
+
+ampl ECG_20000_poly3.mod
+ampl ECG_lite_poly3.mod
+ampl robot.mod
+ampl WI_poly3.mod
+
+================================
+Sigma can be modified in:
+
+ECG_lite.dat
+WI.dat
+ECG_20000.dat
+robot.dat
